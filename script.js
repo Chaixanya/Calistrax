@@ -1,44 +1,43 @@
-/* ---------- SKILL DATA ---------- */
+/* ---------- SKILLS DATA ---------- */
 
 const skills = [
 
-    {
+{
         name: "Muscle Up",
         difficulty: "Advanced",
-        description: "A powerful calisthenics skill combining explosive pulling strength, pushing strength and technique.",
+        description: "A dynamic pulling and pushing skill that combines explosive strength with precise bar transition technique.",
 
         warmup: [
             "Wrist rotations",
             "Shoulder circles",
-            "Scapular activation",
+            "Scapular pull-ups",
             "Dead hang"
         ],
 
         prerequisites: [
-            "Pull-ups",
-            "Explosive pull-ups",
+            "Strict pull-ups",
             "Chest-to-bar pull-ups",
-            "Dips",
+            "Explosive pull-ups",
             "Straight-bar dips",
-            "Core strength"
+            "Strong core control"
         ],
 
         drills: [
-            "Pull-ups",
-            "Negative muscle-ups",
-            "Straight-bar dips",
             "Explosive pull-ups",
             "Chest-to-bar pull-ups",
+            "Straight-bar dips",
+            "Jumping muscle-ups",
+            "Band-assisted muscle-ups",
             "Transition drills",
-            "Box muscle-ups"
+            "Negative muscle-ups"
         ],
 
         mistakes: [
-            "Arched elbows",
-            "Trying to reach above the bar without proper warmup",
-            "Not warming up the shoulders",
-            "Not engaging the core",
-            "Not using the legs for momentum"
+            "Pulling too late during the transition",
+            "Losing control of the bar during the transition",
+            "Flaring the elbows excessively",
+            "Failing to maintain core tension",
+            "Attempting the skill without sufficient pulling strength"
         ]
     },
 
@@ -46,7 +45,7 @@ const skills = [
     {
         name: "Handstand",
         difficulty: "Advanced",
-        description: "A foundational balance skill requiring shoulder control, wrist strength and body awareness.",
+        description: "A balance skill that requires strong shoulders, wrists, core control and precise body positioning.",
 
         warmup: [
             "Wrist circles",
@@ -57,23 +56,27 @@ const skills = [
 
         prerequisites: [
             "Basic wrist strength",
-            "Plank hold",
+            "Strong plank hold",
             "Pike hold",
-            "Wall-supported handstand"
+            "Wall-supported handstand",
+            "Basic shoulder control"
         ],
 
         drills: [
             "Wall handstand hold",
             "Chest-to-wall handstand",
-            "Wall shoulder taps",
-            "Freestanding kick-up practice"
+            "Handstand shoulder taps",
+            "Wall weight shifts",
+            "Freestanding kick-ups",
+            "Freestanding handstand holds"
         ],
 
         mistakes: [
             "Overarching the lower back",
             "Bending the elbows",
             "Looking too far forward",
-            "Not actively pushing through the shoulders"
+            "Shrugging or collapsing the shoulders",
+            "Losing control of the body line"
         ]
     },
 
@@ -81,7 +84,7 @@ const skills = [
     {
         name: "Front Lever",
         difficulty: "Advanced",
-        description: "A static pulling skill requiring strong lats, core and scapular control.",
+        description: "An advanced static pulling skill requiring strong lats, core tension and scapular control.",
 
         warmup: [
             "Shoulder circles",
@@ -91,9 +94,10 @@ const skills = [
         ],
 
         prerequisites: [
-            "Pull-ups",
-            "Hanging knee raises",
+            "Strict pull-ups",
+            "Active hang",
             "Hollow body hold",
+            "Hanging knee raises",
             "Tuck front lever"
         ],
 
@@ -101,22 +105,26 @@ const skills = [
             "Tuck front lever",
             "Advanced tuck front lever",
             "One-leg front lever",
-            "Front lever negatives"
+            "Straddle front lever",
+            "Front lever raises",
+            "Front lever negatives",
+            "Full front lever holds"
         ],
 
         mistakes: [
             "Bending the elbows",
             "Dropping the hips",
             "Losing scapular control",
-            "Progressing too quickly"
+            "Breaking body tension",
+            "Progressing to a harder variation too quickly"
         ]
     },
 
 
     {
         name: "Back Lever",
-        difficulty: "Beginner",
-        description: "A static skill requiring shoulder mobility, body tension and control while holding the body horizontally.",
+        difficulty: "Intermediate",
+        description: "A static strength skill that requires shoulder mobility, straight-arm strength and full-body tension.",
 
         warmup: [
             "Wrist rotations",
@@ -126,24 +134,29 @@ const skills = [
         ],
 
         prerequisites: [
-            "Skin-the-cat",
+            "Active hang",
+            "Skin the cat",
             "Controlled German hang",
-            "Basic support strength",
-            "Core tension"
+            "Basic straight-arm strength",
+            "Core control"
         ],
 
         drills: [
+            "Skin the cat",
             "Tuck back lever",
             "Advanced tuck back lever",
             "One-leg back lever",
-            "Back lever negatives"
+            "Straddle back lever",
+            "Back lever negatives",
+            "Full back lever holds"
         ],
 
         mistakes: [
             "Dropping the hips",
-            "Insufficient shoulder mobility",
             "Bending the elbows",
-            "Rushing the progression"
+            "Losing body tension",
+            "Insufficient shoulder mobility",
+            "Progressing to a harder variation too quickly"
         ]
     },
 
@@ -151,7 +164,7 @@ const skills = [
     {
         name: "L-Sit",
         difficulty: "Beginner",
-        description: "A foundational static hold that develops core, hip-flexor and shoulder strength.",
+        description: "A foundational static hold that develops core strength, hip compression and straight-arm support.",
 
         warmup: [
             "Wrist rotations",
@@ -161,16 +174,17 @@ const skills = [
         ],
 
         prerequisites: [
-            "Tuck support hold",
             "Basic core strength",
-            "Active compression",
-            "Straight-arm support"
+            "Straight-arm support",
+            "Tuck support hold",
+            "Active compression"
         ],
 
         drills: [
             "Tuck sit",
-            "One-leg L-sit",
+            "Single-leg L-sit",
             "Supported L-sit",
+            "L-sit leg extensions",
             "Full L-sit hold"
         ],
 
@@ -178,7 +192,8 @@ const skills = [
             "Bending the knees",
             "Dropping the hips",
             "Shrugging the shoulders",
-            "Holding your breath"
+            "Rounding the back excessively",
+            "Holding the breath"
         ]
     },
 
@@ -186,7 +201,7 @@ const skills = [
     {
         name: "Handstand Push-Up",
         difficulty: "Highly Advanced",
-        description: "A demanding pushing skill combining handstand balance with exceptional shoulder and upper-body strength.",
+        description: "An advanced pushing skill combining handstand balance with significant shoulder and upper-body strength.",
 
         warmup: [
             "Wrist circles",
@@ -199,21 +214,25 @@ const skills = [
             "Freestanding handstand",
             "Pike push-ups",
             "Elevated pike push-ups",
-            "Strong overhead pressing strength"
+            "Strong overhead pressing strength",
+            "Controlled handstand balance"
         ],
 
         drills: [
             "Wall handstand push-ups",
             "Negative handstand push-ups",
             "Partial range handstand push-ups",
-            "Deficit handstand push-ups"
+            "Deficit handstand push-ups",
+            "Freestanding handstand push-up negatives",
+            "Full handstand push-ups"
         ],
 
         mistakes: [
             "Poor handstand alignment",
             "Flaring the elbows",
-            "Using excessive arch",
-            "Losing control during the descent"
+            "Using excessive lower-back arch",
+            "Losing control during the descent",
+            "Failing to maintain shoulder tension"
         ]
     },
 
@@ -221,7 +240,7 @@ const skills = [
     {
         name: "Planche",
         difficulty: "Highly Advanced",
-        description: "An advanced pushing skill requiring exceptional shoulder, wrist, core and straight-arm strength.",
+        description: "An advanced straight-arm strength skill requiring exceptional shoulder, wrist and core control.",
 
         warmup: [
             "Wrist rotations",
@@ -235,21 +254,25 @@ const skills = [
             "Dips",
             "Pseudo planche push-ups",
             "Planche lean",
-            "Strong core"
+            "Strong core control"
         ],
 
         drills: [
             "Planche lean",
             "Tuck planche",
             "Advanced tuck planche",
-            "Straddle planche"
+            "Straddle planche",
+            "Planche push-ups",
+            "Planche negatives",
+            "Full planche holds"
         ],
 
         mistakes: [
             "Bending the elbows",
             "Insufficient forward lean",
             "Losing scapular protraction",
-            "Using a progression that is too difficult"
+            "Dropping the hips",
+            "Progressing to a harder variation too quickly"
         ]
     },
 
@@ -257,7 +280,7 @@ const skills = [
     {
         name: "Human Flag",
         difficulty: "Highly Advanced",
-        description: "A lateral static hold requiring significant shoulder, core and pulling strength.",
+        description: "A lateral static hold requiring significant pulling, pushing and core strength to maintain a horizontal position.",
 
         warmup: [
             "Wrist rotations",
@@ -271,21 +294,26 @@ const skills = [
             "Strong dips",
             "Side plank",
             "Hanging leg raises",
-            "Strong grip"
+            "Strong grip",
+            "Good shoulder control"
         ],
 
         drills: [
             "Vertical flag hold",
             "Tuck human flag",
             "One-leg human flag",
-            "Straddle human flag"
+            "Straddle human flag",
+            "Human flag negatives",
+            "Full human flag holds"
         ],
 
         mistakes: [
             "Weak bottom-arm push",
             "Pulling only with the top arm",
             "Dropping the hips",
-            "Poor body alignment"
+            "Poor body alignment",
+            "Losing shoulder control",
+            "Progressing to a harder variation too quickly"
         ]
     },
 
@@ -293,7 +321,7 @@ const skills = [
     {
         name: "One Arm Handstand",
         difficulty: "Highly Advanced",
-        description: "An extreme balance skill requiring exceptional shoulder strength, wrist strength and body control. It takes significant time and practice to master.",
+        description: "An extreme balance skill requiring exceptional shoulder stability, wrist strength and precise body control.",
 
         warmup: [
             "Wrist rotations",
@@ -312,16 +340,128 @@ const skills = [
 
         drills: [
             "Handstand weight shifts",
+            "Wall-assisted weight shifts",
+            "Fingertip-assisted one-arm holds",
             "Wall-assisted one-arm holds",
-            "Fingertip-assisted one-arm handstand",
-            "Controlled one-arm balance attempts"
+            "Controlled one-arm balance attempts",
+            "Freestanding one-arm handstand holds"
         ],
 
         mistakes: [
             "Shifting weight too quickly",
             "Collapsing the supporting shoulder",
             "Losing hip control",
+            "Bending the supporting arm",
+            "Looking away from the supporting hand",
             "Attempting the skill without sufficient balance"
+        ]
+    },
+
+
+    {
+        name: "Skin the Cat",
+        difficulty: "Beginner",
+        description: "A foundational gymnastics movement that develops shoulder mobility, control and strength through a full range of motion.",
+        warmup: [
+            "Wrist rotations",
+            "Shoulder circles",
+            "Shoulder dislocates",
+            "Scapular activation"
+        ],
+        prerequisites: [
+            "Basic hanging strength",
+            "Active hang",
+            "Controlled German hang",
+            "Basic shoulder mobility"
+        ],
+        drills: [
+            "Tuck skin the cat",
+            "Controlled skin the cat",
+            "Slow skin the cat",
+            "Skin the cat hold"
+        ],
+        mistakes: [
+            "Dropping too quickly into the movement",
+            "Insufficient shoulder mobility",
+            "Bending the elbows excessively",
+            "Losing control during the rotation"
+        ]
+    },
+
+
+    {
+        name: "Pike Push-Ups",
+        difficulty: "Intermediate",
+        description: "A shoulder-focused pushing movement that builds the overhead pressing strength needed for advanced skills.",
+
+        warmup: [
+            "Wrist rotations",
+            "Wrist extensions",
+            "Shoulder circles",
+            "Scapular push-ups"
+        ],
+
+        prerequisites: [
+            "Basic push-ups",
+            "Strong plank hold",
+            "Pike hold",
+            "Basic shoulder control"
+        ],
+
+        drills: [
+            "Pike hold",
+            "Pike push-ups",
+            "Feet-elevated pike push-ups",
+            "Deep pike push-ups",
+            "Slow eccentric pike push-ups"
+        ],
+
+        mistakes: [
+            "Flaring the elbows",
+            "Losing the pike position",
+            "Dropping the head too quickly",
+            "Using excessive momentum",
+            "Failing to control the descent"
+        ]
+    },
+
+
+    {
+       name: "Swing Gainer",
+        difficulty: "Advanced",
+        description: "A dynamic aerial skill combining a powerful swing, explosive take-off and controlled backward rotation.",
+
+        warmup: [
+            "Ankle mobility",
+            "Hip mobility",
+            "Dynamic leg swings",
+            "Light jumping drills"
+        ],
+
+        prerequisites: [
+            "Strong single-leg take-off",
+            "Good jumping ability",
+            "Basic aerial awareness",
+            "Controlled landing mechanics",
+            "Confidence with backward rotation"
+        ],
+
+        drills: [
+            "Swing mechanics",
+            "Single-leg take-off drills",
+            "Gainer jump progression",
+            "Assisted gainer",
+            "Low-height gainer practice",
+            "Full swing gainer"
+        ],
+
+        mistakes: [
+            "Poor take-off direction",
+            "Insufficient swing",
+            "Jumping too vertically",
+            "Losing body control during rotation",
+            "Poor landing position",
+            "Attempting the skill without mastering the prerequisites"
         ]
     }
 
@@ -431,12 +571,7 @@ function showSkillDetails(selectedSkill) {
     if (!selectedSkill) return;
 
 
-    /* ---------- TITLE ---------- */
-
     detailTitle.textContent = selectedSkill.name;
-
-
-    /* ---------- DESCRIPTION ---------- */
 
     detailDescription.textContent = selectedSkill.description;
 
