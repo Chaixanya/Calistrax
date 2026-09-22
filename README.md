@@ -1,5 +1,11 @@
 # CALISTRAX
 
+### 🌐 Live Demo
+
+[View Calistrax Live](https://calistrax-ggy3rqnp4-chaitanyasharmabhardwaj-3411s-projects.vercel.app/)
+
+### A structured guide to learning calisthenics skills.
+
 ### A structured guide to learning calisthenics skills.
 
 Calistrax is a project I built to organize calisthenics skills into a simple progression-based guide.
