@@ -6,9 +6,7 @@
 
 ### A structured guide to learning calisthenics skills.
 
-### A structured guide to learning calisthenics skills.
-
-Calistrax is a project I built to organize calisthenics skills into a simple progression-based guide.
+Calistrax is a project built to organize calisthenics skills into a simple progression-based guide.
 
 Instead of just showing a list of skills, the idea is to show **what goes into learning a skill** — the warm-up, prerequisites, drills, and common mistakes to look out for.
 
@@ -65,10 +63,13 @@ Skills are automatically organized according to their difficulty level.
 
 ## Why I built it
 
-I wanted to build something around a topic I actually enjoy while also getting more hands-on experience with frontend development.
+Calisthenics has been a big part of my interests for a while, and I wanted to build something around it instead of making another project just for the sake of having one.
 
-Calistrax started as a simple HTML/CSS/JavaScript project, but the goal is to eventually take the idea further as I learn more technologies.
+While learning different skills, I started noticing how much goes into progressing from one movement to another — strength, technique, prerequisites, and a lot of patience.
 
+Calistrax is my attempt to put that progression into a simple and structured format, while also using it as a way to improve my frontend development skills.
+
+It started as a small HTML, CSS and JavaScript project, but I plan to keep building on the idea as I learn more.
 ## What's next
 
 Some things I may explore in future versions:
